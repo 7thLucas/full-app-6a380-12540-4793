@@ -1,0 +1,40 @@
+<style>
+  .mode-landscape .sl-foundation-layout { display: flex; flex-direction: row; align-items: stretch; min-height: 100%; }
+  .mode-landscape .sl-content-panel { width: 55%; padding: 3rem; display: flex; flex-direction: column; justify-content: center; }
+  .mode-landscape .sl-visual-panel { width: 45%; min-height: 0; }
+  .mode-portrait .sl-foundation-layout { display: flex; flex-direction: column; min-height: 100%; }
+  .mode-portrait .sl-content-panel { padding: 2rem 1.5rem; }
+  .mode-portrait .sl-visual-panel { min-height: 280px; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-foundation-layout">
+    <div class="sl-content-panel">
+      <div class="flex items-center justify-between mb-4">
+        <span class="inline-block text-xs font-semibold tracking-widest uppercase" style="color:#2d5016;">Foundation</span>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 border rounded-full" style="background-color:#2d5016; border-color:#2d501630;">
+          <span class="text-xs font-semibold" style="color:#ffffff;">Validated</span>
+
+        </span>
+      </div>
+      <h1 class="text-3xl font-bold text-slate-900 leading-tight mb-8">Manual crop monitoring and reactive pest management</h1>
+      <div class="space-y-5">
+        <div class="border-l-4 pl-4 relative" style="border-color:#F43F5E;">
+          <h2 class="text-sm font-semibold uppercase tracking-wide mb-1" style="color:#E11D48;">The Problem</h2>
+          <p class="text-slate-700 leading-relaxed text-sm">Farmers face significant challenges in crop management, including unpredictable pest outbreaks, suboptimal irrigation scheduling, and difficulty predicting yields. Manual scouting is time-consuming, expensive, and often arrives too late to prevent losses.</p>
+        </div>
+        <div class="border-l-4 pl-4 relative" style="border-color:#2d5016;">
+          <h2 class="text-sm font-semibold uppercase tracking-wide mb-1" style="color:#2d5016;">The Solution</h2>
+          <p class="text-slate-700 leading-relaxed text-sm">Traditional agriculture relies on manual field inspections and reactive responses to pest and disease outbreaks, leading to crop losses, inefficient resource use, and unpredictable yields.</p>
+        </div>
+        <div class="border-l-4 border-sky-500 pl-4 relative"><h2 class="text-sm font-semibold text-sky-600 uppercase tracking-wide mb-1">Target Audience</h2><p class="text-slate-700 leading-relaxed text-sm">Farm managers, agronomists, and agricultural enterprises managing 50+ acres</p></div>
+        <div class="border-l-4 border-amber-500 pl-4 relative"><h2 class="text-sm font-semibold text-amber-600 uppercase tracking-wide mb-1">Personal Motivation</h2><p class="text-slate-700 leading-relaxed text-sm">Empower farmers with data-driven decisions to increase yields while reducing input costs and environmental impact.</p></div>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-2"><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Precision Agriculture</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Computer Vision</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Predictive Analytics</span><span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full">Sustainability</span></div>
+      <div class="mt-8"><data-attribution /></div>
+    </div>
+    <div class="sl-visual-panel relative">
+      <img src="http://localhost:8001/common/image-generation?prompt=farmer+inspecting+crops+manually+in+field&amp;keyspace=emgfa533&amp;user_id=4793" alt="visual" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-r from-white via-transparent to-transparent opacity-40"></div>
+    </div>
+  </div>
+</section>
